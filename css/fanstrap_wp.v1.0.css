@@ -5,4 +5,30 @@
  *
  */
 
- 
+#header .site-logo{height:100%;max-height:250px;}
+@media screen and (max-width:480px) {
+#header .site-logo img{max-width:200%}
+#header .site-logo{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex;align-items:center;justify-content:center}
+#header .search-form{float:none;width:100%;margin-top:5px}
+#header .site-absolute{top:15%;padding:0 15px}
+#header .site-title{width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#header .site-branding{float:none;width:100%}
+#site-navigation ul{padding:0}
+#site-navigation li{float:none}
+#site-navigation li .sub-menu{position:static;display:block;width:auto}
+#page{padding:25px}
+#outer-wrapper{max-width:100%}
+#main,#sidebar{float:none;width:100%;padding:0}
+.entry-thumbnail{float:none;width:100%}
+.post-pvlist,.post-anilist{width:100%}
+.comment-respond .form-submit{width:100%;float:none;margin-bottom:20px}
+.recent-li{float:none;width:100%}
+.share-entry a{display:block;margin-bottom:5px;width:100%}
+h1.entry-title{line-height:1.2;font-size:26px;margin-bottom:6px}
+.anime-thumb{float:none;width:100%;margin:0 0 15px;text-align:center}
+.anime-episode ._col-dl a{font-size:0}
+.anime-episode tbody tr:nth-child(2n+2){background:#f5f5f5}
+.anime-episode ._col-dl{padding:0 16px 0 20px}
+.anime-episode thead tr th:nth-child(2){font-size:0}
+.anime-episode thead tr th:nth-child(2):after{content:"\f019";font-size:12px!important;font-family:Font Awesome 5 Free}
+}
