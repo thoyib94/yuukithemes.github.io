@@ -47,9 +47,6 @@
 .yuukithemes-genre li a[title~=Super-Power]:before{background-image:url("https://2.bp.blogspot.com/-R4qYwOL4pIY/WoxGE--f3mI/AAAAAAAAANw/HoOETgXyzxIg9fvq0Em4xhK8mi2KMKZkwCLcBGAs/s1600/superpower.png");}
 .yuukithemes-genre li a[title~=Tragedy]:before{background-image:url("https://4.bp.blogspot.com/-u9LSBhgrMwU/WoxGFLa-U7I/AAAAAAAAAN0/qGMQxRqB0v8AFgtVChBtMIzt_Ff-N9aqwCLcBGAs/s1600/tragedy.png");}
 .yuukithemes-genre li a[title~=Vampire]:before{background-image:url("https://4.bp.blogspot.com/-b9036SURy9w/WoxGFKnVgGI/AAAAAAAAAN4/HWAcUI3sOVwJBp6sCV5BcRkBzUCVJ7XwACLcBGAs/s1600/vampire.png");}
-@media screen and (min-width:620px) and (max-width:768px){
-.yuukithemes-genre li{float:none;width:100%}.yuukithemes-genre li a{padding:10px}
-}
-@media screen and (max-width:-480px){
+@media screen and (max-width:480px){
 .yuukithemes-genre li{float:none;width:100%}.yuukithemes-genre li a{padding:11px}
 }
