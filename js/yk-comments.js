@@ -1,0 +1,1 @@
+!function(){var e=document,t=e.createElement("script");t.src="https://yuukithemes-1.disqus.com/embed.js",t.setAttribute("data-timestamp",+new Date),(e.head||e.body).appendChild(t)}();
