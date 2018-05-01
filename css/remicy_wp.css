@@ -1,0 +1,63 @@
+/*
+ * RemIcy Wordpress Theme v.2.0
+ * 03/05/2018
+ * @yuukithemes
+ *
+ */
+
+/** Media Responsive **/
+@media screen and (max-width:600px) {
+.container{max-width:460px}
+#site-navigation li{float:none;display:block}
+#nav-header{display:block;float:none;background:#49a6d2;margin:23px -20px -20px;padding:15px;clear:both}
+.site-branding{float:none}
+#nav-header .nav-float{white-space:normal}
+#nav-header .yk-ul li{margin-bottom:5px}
+.search-mobile{float:none}
+.search-field{width:calc(100% - 120px)}
+.post-ongoing{width:25%!important}
+#main,#sidebar{width:100%;float:none;clear:both}
+#site-navigation li .sub-menu{width:100%;position:static;display:block}
+.site-copyright p:first-child,.site-copyright p:last-child{float:none;display:block}
+.entry-thumbnail{width:75px!important}
+.post-outer .thumb-link img{height:inherit;max-width:150px}
+.post-pv{width:50%!important}
+#mb_put{display:block;visibility:visible;-webkit-appearance:none;position:absolute;margin:0;width:100%;height:47px;z-index:100;cursor:pointer;outline:0;left:0}
+#mb_put:checked ~ div.menus{display:block;padding:0}
+#mb_lab{display:block;visibility:visible;color:#fff;text-transform:uppercase;font-size:15px;padding:10px 15px;letter-spacing:.3px;cursor:pointer;margin:0;font-weight:700}
+#mb_lab i{font-size:13px;padding-right:5px}
+.menus{display:none}
+.download_item a,.download_item del{margin-bottom:7px}
+.post-inner .share-entry a{width:31.7%!important}
+##main .commentlist .children{margin-left:30px}
+#main .comment-metadata{position:static;font-size:11px;padding-left:65px}
+#main .comment-respond .form-submit{float:none}
+#main .post-inner .share-entry{padding-bottom:0}
+.related-series-thumb{display:block;width:100%;float:none;margin-bottom:15px;text-align:center}
+}
+@media screen and (max-width:420px) {
+.post-ongoing{width:100%!important;border-bottom:1px solid #ddd;margin-bottom:15px}
+.ongoing-thumb img{width:40px!important;float:left;margin-right:15px!important}
+.ongoing-item{background:transparent!important;padding:0!important;position:static!important}
+.ongoing-item strong{text-shadow:inherit!important;color:#333!important;font-size:13px!important;white-space:inherit!important}
+.entry-thumbnail{display:none}
+#page{padding:15px}
+.post-inner h1.entry-title{line-height:1.3}
+.post-inner .entry-headers span{padding:0;display:block}
+.post-inner .share-entry a,.download_item a,.download_item del{margin:0 0 7px!important;width:100%!important}
+#main .commentlist .children .comment-author img,#main .commentlist .children .comment-author:before{display:none}
+#main .commentlist .children .comment-metadata,#main .commentlist .children .comment-content p{padding-left:0}
+#main .commentlist .children .children{margin-left:20px}
+#main .post-inner .anime-thumb{float:none;width:100%;margin:0 0 15px;text-align:center}
+.anime-episode tbody ._col-dl a{font-size:0}
+.anime-episode tbody ._col-dl i{font-size:15px;padding:0}
+.anime-episode ._col-eps{width:80%}
+.anime-episode thead tr th:nth-child(2){font-size:0}
+#main .post-inner .share-entry a:last-child{margin-bottom:0!important}
+.archive-thumb{display:none;}
+}
+@media screen and (max-width:320px) {
+.post-pv{width:100%!important}
+#sidetab li{width:100%}
+#sidetab{display:block}
+}
